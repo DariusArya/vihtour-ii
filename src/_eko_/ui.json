@@ -1,0 +1,22 @@
+{
+    "apiVersion": "4.0.0",
+    "guiControllers": [
+        {
+            "id": "node_20200204_092651_830c96",
+            "type": "DECISION",
+            "config": {
+                "showInNodes": [
+                    "node_20200204_092651_830c96"
+                ],
+                "hideInNodesEnd": [
+                    "node_20200204_092651_830c96"
+                ],
+                "userSelectionDisappearDelay": 2.5,
+                "autoSelectionDisappearDelay": 3.5
+            }
+        }
+    ],
+    "gui": [
+
+    ]
+}
