@@ -4,7 +4,7 @@ import settings from '../config/settings.json';
 import playerOptions from '../config/playerOptions.json';
 
 let introNodesMap;
-let head = 'node_20200204_092651_830c96';
+let head = 'node_main_830c96';
 let introNodes = [head];
     
 let headNodeIdQP;
