@@ -29,7 +29,9 @@
                     "transitionInDuration": 0.60000002384186,
                     "transitionOutDuration": 0.60000002384186,
                     "children": [
-                        "button_main_e39753"
+                        "button_main_e39753",
+                        "timer_main_f33d9e",
+                        "button_main_7b1a80"
                     ]
                 }
             }
@@ -92,6 +94,89 @@
                 }
             },
             "component": "LegacyBevelButton"
+        },
+        {
+            "id": "timer_main_f33d9e",
+            "props": {
+                "config": {
+                    "stateSourceId": "node_main_830c96",
+                    "parentElement": null,
+                    "enableTransition": false,
+                    "text": "Timer1",
+                    "style": {
+                        "top": 10,
+                        "left": 10,
+                        "width": "60px",
+                        "height": "60px",
+                        "visibility": "visible",
+                        "opacity": 1,
+                        "transform": "rotate(0deg)",
+                        "transformOrigin": "0 0",
+                        "--font": "Nixie One",
+                        "--color": "#F3F4F4"
+                    },
+                    "handlers": [
+
+                    ]
+                },
+                "studio": {
+
+                }
+            },
+            "component": "LegacyPureTimer"
+        },
+        {
+            "id": "button_main_7b1a80",
+            "props": {
+                "config": {
+                    "stateSourceId": "node_main_830c96",
+                    "parentElement": null,
+                    "enableTransition": false,
+                    "text": "popuptext",
+                    "style": {
+                        "top": 163,
+                        "left": 232,
+                        "width": "130px",
+                        "height": "46px",
+                        "visibility": "visible",
+                        "opacity": 1,
+                        "transform": "rotate(0deg)",
+                        "transformOrigin": "0 0",
+                        "--color": "#61C9DB",
+                        "--bg-color": "#140112",
+                        "--font": "Dosis",
+                        "--font-size": "26px",
+                        "--text-color": "#ffffff",
+                        "--line-height": "26px",
+                        "--letter-spacing": "1",
+                        "--text-align": "center",
+                        "--text-box-align": "center",
+                        "--text-box-vertical-align": "center",
+                        "--word-wrap": "nowrap"
+                    },
+                    "handlers": [
+                        {
+                            "type": "REPORT_INTERACTION",
+                            "id": "button_main_7b1a80",
+                            "data": {
+
+                            },
+                            "options": {
+                                "trackAnalytics": true,
+                                "analyticsData": {
+                                    "interactionElementName": "button_main_7b1a80",
+                                    "interactionElementText": "popuptext",
+                                    "interactionTriggerType": "click"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "studio": {
+
+                }
+            },
+            "component": "LegacyTagButton"
         }
     ]
 }
